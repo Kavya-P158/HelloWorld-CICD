@@ -23,7 +23,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pytest
-        run: pytest test/ -v
+        run: pytest -v
 
   # ── JOB 2: Build & Push Docker Image ──────────────
   build:
